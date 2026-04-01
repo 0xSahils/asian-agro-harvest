@@ -61,7 +61,7 @@ export default function CertificationsPage() {
       </section>
 
       {/* Certifications Grid */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {certifications.map((cert) => {
@@ -109,7 +109,7 @@ export default function CertificationsPage() {
       </section>
 
       {/* Compliance Statement */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-secondary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-primary to-primary-light text-white rounded-xl p-12 text-center">
             <h2 className="text-3xl font-bold mb-6">International Compliance</h2>

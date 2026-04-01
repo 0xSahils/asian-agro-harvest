@@ -82,7 +82,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-primary/20 via-primary-light/10 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-xl fade-in-up">
@@ -111,7 +111,7 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-gradient-to-b from-muted to-background">
+      <section className="py-20 bg-gradient-to-br from-primary/30 via-tertiary/10 to-secondary/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-secondary font-playfair font-bold text-sm uppercase tracking-widest">OUR FOUNDATION</span>
@@ -171,7 +171,7 @@ export default function AboutPage() {
       </section>
 
       {/* How We Work */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-secondary/20 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-secondary font-playfair font-bold text-sm uppercase tracking-widest">OUR APPROACH</span>
@@ -218,7 +218,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-accent/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-foreground text-center mb-16">Our Journey</h2>
           <div className="space-y-8">

@@ -55,7 +55,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-gradient-to-br from-secondary/10 via-transparent to-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Info */}
@@ -251,7 +251,7 @@ export default function ContactPage() {
       </section>
 
       {/* Team & Communication Section */}
-      <section className="py-20 bg-gradient-to-b from-muted to-background border-t border-border">
+      <section className="py-20 bg-gradient-to-br from-accent/10 via-transparent to-primary/5 border-t border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <h2 className="text-4xl font-playfair font-bold text-foreground mb-4">We&apos;re Here to Help</h2>

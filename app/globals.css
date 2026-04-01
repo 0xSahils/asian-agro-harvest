@@ -18,13 +18,13 @@
   --tertiary: #8B5CF6;          /* Purple accent */
   --tertiary-light: #A78BFA;    /* Light purple */
   
-  --background: #FFFFFF;        /* Pure white */
-  --foreground: #0F172A;        /* Dark slate */
-  --card: #F8FAFC;              /* Light slate */
-  --card-foreground: #0F172A;   /* Dark text */
-  --border: #E2E8F0;            /* Light border */
-  --muted: #F1F5F9;             /* Muted gray */
-  --muted-foreground: #64748B;  /* Medium gray */
+  --background: #FAFAF7;        /* Elegant sand/cream */
+  --foreground: #101F17;        /* Very dark forest */
+  --card: #F4F3ED;              /* Warm light earthy tone */
+  --card-foreground: #101F17;   /* Dark forest text */
+  --border: #E8E6DD;            /* Warm subtle border */
+  --muted: #EBEAE2;             /* Richer muted earth tone */
+  --muted-foreground: #5B6B62;  /* Medium gray-green */
   
   /* Semantic colors */
   --success: #10B981;
@@ -90,12 +90,18 @@
   --color-popover: var(--popover);
   --color-popover-foreground: var(--popover-foreground);
   --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-lighter: var(--primary-lighter);
   --color-primary-foreground: #FFFFFF;
   --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
   --color-secondary-foreground: var(--secondary-foreground);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-light: var(--tertiary-light);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
   --color-accent-foreground: #1A1A1A;
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);

@@ -141,7 +141,7 @@ export default function ProductsPage() {
       </section>
 
       {/* Products Grid */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-secondary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             {filteredProducts.map((product) => (

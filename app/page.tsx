@@ -153,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-primary/30 via-primary-light/10 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96 rounded-2xl overflow-hidden fade-in-up shadow-xl">
@@ -190,7 +190,7 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section className="py-20 bg-gradient-to-b from-muted to-background">
+      <section className="py-20 bg-gradient-to-br from-secondary/30 via-tertiary/10 to-primary/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-secondary font-playfair font-bold text-sm uppercase tracking-widest">WHAT WE SOURCE</span>
@@ -340,7 +340,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-gradient-to-br from-accent/30 via-accent-light/20 to-secondary/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl font-playfair font-bold text-foreground text-center mb-4 fade-in-up">Why Partner With Us</h2>
           <p className="text-center text-muted-foreground mb-16 text-lg font-dm-sans max-w-2xl mx-auto">Built on transparency, quality, and commitment to building long-term relationships</p>

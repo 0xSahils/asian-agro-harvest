@@ -93,7 +93,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Why Us Section */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-gradient-to-br from-secondary/10 via-transparent to-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-tertiary font-playfair font-bold text-sm uppercase tracking-widest">OUR ADVANTAGES</span>
@@ -205,7 +205,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Numbers That Speak */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-secondary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-foreground text-center mb-16">Numbers That Speak</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -261,7 +261,7 @@ export default function WhyUsPage() {
       </section>
 
       {/* Case Study */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card rounded-xl border border-border overflow-hidden">
             <div className="grid md:grid-cols-2">

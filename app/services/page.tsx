@@ -81,7 +81,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-gradient-to-br from-accent/10 via-transparent to-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-secondary font-playfair font-bold text-sm uppercase tracking-widest">COMPREHENSIVE SUPPORT</span>
@@ -185,7 +185,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Why Our Services */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-gradient-to-br from-primary/5 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

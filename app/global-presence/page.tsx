@@ -83,7 +83,7 @@ export default function GlobalPresencePage() {
       </section>
 
       {/* Global Networks */}
-      <section className="py-20 bg-gradient-to-b from-background to-muted">
+      <section className="py-20 bg-gradient-to-br from-tertiary/10 via-transparent to-secondary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 fade-in-up">
             <span className="text-secondary font-playfair font-bold text-sm uppercase tracking-widest">WORLDWIDE REACH</span>
